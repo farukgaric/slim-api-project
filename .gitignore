@@ -1,0 +1,7 @@
+# Global
+.*.swp
+.DS_Store
+
+# Application
+app/composer.lock
+app/vendor/

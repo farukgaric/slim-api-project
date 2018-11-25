@@ -1,0 +1,27 @@
+{
+    "name": "farukgaric/slim-api-project",
+    "description": "A RESTful API Boilerplate built on Slim 3 that supports JSON/XML/HTML.",
+    "authors": [
+        {
+            "name": "Faruk Garic",
+            "email": "faruk.garic@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.4",
+        "vlucas/phpdotenv": "^2.3",
+        "slim/slim": "^3.5",
+        "respect/validation": "^1.1",
+        "league/fractal": "^0.13.0",
+        "akrabat/rka-content-type-renderer": "^0.4.0",
+        "firebase/php-jwt": "^3.0",
+        "illuminate/database": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
